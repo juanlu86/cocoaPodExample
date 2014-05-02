@@ -5,3 +5,8 @@ end
 
 target "DemoTests" do
 end
+
+platform :ios
+#platform :osx
+
+podspec :path => "../podExample.podspec"
